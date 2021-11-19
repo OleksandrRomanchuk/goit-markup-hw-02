@@ -76,6 +76,11 @@ body {
 .hero-section {
   background-color: #2f303a;
 }
+
+.title {
+  color: var(--header-color);
+}
+
 .hero-section.title {
   text-transform: uppercase;
   text-align: center;
@@ -110,7 +115,6 @@ body {
 }
 
 .feature .title {
-  color: var(--header-color);
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -125,7 +129,6 @@ body {
 }
 
 .services.title {
-  color: var(--header-color);
   font-size: 36px;
   text-align: center;
 }
@@ -136,7 +139,6 @@ body {
 }
 
 .team .title {
-  color: var(--header-color);
   text-align: center;
   font-size: 36px;
 }
@@ -186,20 +188,43 @@ footer {
 }
 
 /* portfolio */
+.projects {
+  background: #e5e5e5;
+}
 
-.project {
+.filter {
   list-style-type: none;
 }
-.button .all,
+
+.filter .button.all,
 .sites,
 .apps,
 .design,
 .marketing {
   background: #f5f4fa;
+  border: none;
   border-radius: 4px;
 }
 
-.button:hover,
+.filter .button:hover,
 .button:focus {
-  color: var(--hover-focus-color);
+  background: var(--hover-focus-color);
+  color: #ffffff;
+}
+
+.project {
+  list-style-type: none;
+  background: #ffffff;
+  border-width: 1px;
+  border-color: #eeeeee;
+}
+
+.project .title {
+  font-size: 18px;
+  line-height: 1.71;
+}
+
+.project .text {
+  font-size: 16px;
+  line-height: 1.6;
 }
