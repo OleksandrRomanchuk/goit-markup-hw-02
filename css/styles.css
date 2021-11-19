@@ -31,7 +31,7 @@ body {
 }
 
 .site-nav .logo .studio {
-  color: var(--header-color);
+  color: #000000;
 }
 
 .link,
@@ -61,7 +61,6 @@ body {
   color: var(--primary-font-color);
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
 }
 
 .e-mail:hover,
@@ -116,7 +115,6 @@ body {
 
 .feature .title {
   text-transform: uppercase;
-  font-size: 14px;
 }
 
 .feature .text {
@@ -141,6 +139,7 @@ body {
 .team .title {
   text-align: center;
   font-size: 36px;
+  line-height: 1.17;
 }
 
 .team .card {
@@ -158,7 +157,7 @@ body {
 footer {
   background: #2f303a;
   font-size: 14px;
-  line-height: 1.46;
+  line-height: 1.71;
 }
 
 .logo .studio {
@@ -171,23 +170,19 @@ footer {
   color: #ffffff;
 }
 
+.contact-footer {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-footer:hover,
+.contact-footer:focus,
 .location:hover,
 .location:focus {
   color: var(--hover-focus-color);
 }
 
-.contact-footer {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-}
-
-.contact-footer:hover,
-.contact-footer:focus {
-  color: var(--hover-focus-color);
-}
-
-/* portfolio */
+/* portfolio-page */
 .projects {
   background: #e5e5e5;
 }
@@ -215,16 +210,14 @@ footer {
 .project {
   list-style-type: none;
   background: #ffffff;
-  border-width: 1px;
-  border-color: #eeeeee;
 }
 
 .project .title {
   font-size: 18px;
-  line-height: 1.71;
+  line-height: 2;
 }
 
 .project .text {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.87;
 }
