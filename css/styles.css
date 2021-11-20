@@ -89,10 +89,6 @@ body {
   line-height: 1.36;
 }
 
-.button {
-  cursor: pointer;
-}
-
 .hero-section .button {
   background: var(--hover-focus-color);
   border: none;
@@ -101,6 +97,11 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.hero-section .button:hover,
+.button:focus {
+  color: #188ce8;
 }
 
 .button {
@@ -201,8 +202,7 @@ footer {
   border-radius: 4px;
 }
 
-.filter .button:hover,
-.button:focus {
+.filter .button:active {
   background: var(--hover-focus-color);
   color: #ffffff;
 }
